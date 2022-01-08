@@ -1,0 +1,282 @@
+@media (max-width: 767px){
+    .high{
+        height: 7rem;
+    }
+    
+        /*---------dream home----------------*/
+    
+    .gap{
+        align-items: center;
+    }
+    
+    .posi-tion{
+        position: static;
+    }
+    
+    .button-position{
+        
+    }
+    
+    /*--------footer--------------*/
+    
+    .copy-write{
+        padding: 0px;
+    }
+    
+    .copy-write{
+        height: 6rem;
+    }
+    
+    .claim{
+        padding: 0px 4px;
+    }
+    
+    /*-------------real estate------------------*/
+    
+    .your-house{
+        font-size: 2rem;
+        margin: 0px;
+    }
+    
+    .doler-space{
+        margin-right: 0px;
+    }
+    
+    .dolar-home{
+        margin-top: 3rem;
+    }
+    
+    .background-white{
+        position: static;
+        padding: 0px 2rem;
+        margin: 12rem 0rem;
+    }
+    
+    .form-shadow-margin-top{
+        margin-top: 3rem;
+    }
+    
+    .button-now{
+        margin-bottom: 3rem;
+    }
+    
+    /*--------------------leading-------------*/
+    
+    .position-image img{
+        width: 50%;
+    }
+    
+    .position-icon{
+        left: 16%;
+        top: 33%;
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    
+    .minim{
+        padding-right: 1rem;
+    }
+    
+    .the-tech{
+        display: inline-block;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .studio-plus{
+        width: 32%;
+        display: inline-block;
+    }
+    
+    .studio-plus a{
+        font-size: 14px;
+    }
+    
+    /*-----------services---------------*/
+    
+    .background-service{
+        margin: 6rem 0rem;
+        padding: 7rem 0rem;
+    }
+    
+    /*-----------feature listing------------*/
+    
+    .li-after{
+/*        padding-right: 0px;*/
+    }
+    
+    .w-image{
+        width: 30%;
+    }
+    
+    .likes{
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+    
+    .owner{
+        width: 16%;
+        margin-left: 1.4rem;
+        margin-right: 1rem;
+    }
+    
+    /*----------appartment sketch-------------------*/
+    
+    .background-studio {
+        padding: 2rem 1rem;
+    }
+    
+    /*---------------aminities------------------*/
+    
+    .absolute-position{
+        left: 34%;
+    }
+    
+    /*-----------feedback------------------*/
+    
+    .feedback{
+        height: auto;
+        margin-bottom: 3rem;
+    }
+    
+    
+    
+    
+    /*----------------------home-1.html--------------------------------------------*/
+    
+    
+    /*------------------find house---------------------*/
+    
+    .img-container{
+        width: 100%;
+        height: auto;
+    }
+    
+    /*------------making space---------------------*/
+    
+    .making-grid{
+        grid-template-columns: 100%;
+    }
+    
+    .check-fas{
+        margin-right: 0px;
+    }
+    
+    .play-video{
+        position: static;
+    }
+    
+    /*-----------standards---------------------*/
+    
+.standards{
+        margin-bottom: 20rem;
+    }
+    
+    .dream-living{
+        padding-right: 3rem;
+    }
+    
+    .std-content-gap {
+        padding: 2rem 1rem 1rem;
+    }
+    
+    .label-span{
+        font-size: 13px;
+        font-weight: bold;
+        color: #626262;
+    }
+    
+    /*------------------appartment--------------------------*/
+    
+    .background-portion {
+        padding: 1rem 1rem;
+    }
+    
+    /*--------------search area----------------*/
+    
+    .search-dream-house{
+        padding-right: 1rem;
+        font-size: 24px;
+    }
+    
+    /*-----------------Avialability----------------------*/
+    
+    
+    	/* Force table to not be like tables anymore */
+		table, thead, tbody, th, td, tr {
+			display: block;
+		}
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+    tr {
+      margin: 0 0 1rem 0;
+    }
+      
+    tr:nth-child(odd) {
+      background: #ccc;
+    }
+    
+		td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			padding-left: 50%;
+		}
+
+		td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 0;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+            font-weight: bold;
+            text-align: start;
+		}
+
+		/*
+		Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+		*/
+		td:nth-of-type(1):before { content: "Residence"; }
+		td:nth-of-type(2):before { content: "Bedrooms"; }
+		td:nth-of-type(3):before { content: "Bathroom"; }
+		td:nth-of-type(4):before { content: "SQ. FT."; }
+		td:nth-of-type(5):before { content: "Rent Price"; }
+		td:nth-of-type(6):before { content: "Details"; }
+    
+    th, td{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: end;
+    }
+    
+    /*----------neighbour------------------*/
+    
+    .neighbour-explore {
+        padding-right: 1rem;
+    }
+    
+    /*--------------------our facility----------------*/
+    
+    .facility-space{
+        padding: 2rem 1rem;
+    }
+    
+    /*-----------------testimonial-----------------------*/
+    
+    .testimonial-user-person{
+        grid-template-columns: auto;
+    }
+    
+}
