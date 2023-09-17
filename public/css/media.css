@@ -1,0 +1,341 @@
+@media (min-width: 993px) and (max-width: 1199px) {
+    /* real estate */
+    /*-----------------News & blogs-------------------------*/
+    .news-blogs .blogs.image-17-hover h3 > a.nice-view {
+        font-size: 22px;
+    }
+    /* real estate end */
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    /*-----------------News & blogs-------------------------*/
+    .news-blogs .blogs.image-17-hover h3 > a.nice-view {
+        font-size: 24px;
+    }
+}
+@media (max-width: 992px) {
+    /* real estate */
+    .background {
+        padding-bottom: 0;
+    }
+    .dolar-home {
+        margin-top: 3rem;
+    }
+    /* real estate end */
+    /*------------- leading start -------------------*/
+    .leading__home-section {
+        padding-top: 30px;
+    }
+    /*------------- leading end -------------------*/
+    /*-------- footer-start --------------*/
+    .copy-write {
+        height: unset;
+        padding: 0;
+    }
+    /*-------- footer-end --------------*/
+
+    /*----------------------home-1.html--------------------------------------------*/
+    /*------------------find house---------------------*/
+    .home__banner-img {
+        height: 400px;
+        overflow: hidden;
+    }
+    .img-container {
+        width: 100%;
+        height: auto;
+    }
+    .video-enquiry {
+        padding-bottom: 1rem;
+    }
+    /*--------leaving space------------------*/
+    .leaving__space-img {
+        justify-content: center;
+    }
+    /*------------making space---------------------*/
+    .home__one-making-space::before {
+        left: 0%;
+        width: 0px;
+        height: 0px;
+        line-height: 0px;
+    }
+    .home__one-making-space::after {
+        width: 0%;
+    }
+    .making-grid {
+        grid-template-columns: 100%;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 767px) {
+    /*-----------------News & blogs-------------------------*/
+    .news-blogs .blogs.image-17-hover h3 > a.nice-view {
+        font-size: 22px;
+    }
+    /*--------------search area----------------*/
+    .search-dream-house {
+        width: 390px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .high {
+        height: 7rem;
+    }
+    /*---------dream home----------------*/
+
+    .gap {
+        align-items: center;
+    }
+
+    .posi-tion {
+        position: static;
+    }
+
+    .button-position {
+    }
+
+    /*--------footer--------------*/
+
+    .copy-write {
+        padding: 0px;
+    }
+
+    .copy-write {
+        height: 6rem;
+    }
+
+    .claim {
+        padding: 0px 4px;
+    }
+
+    /*-------------real estate------------------*/
+
+    .your-house {
+        font-size: 2rem;
+        margin: 0px;
+    }
+
+    .doler-space {
+        margin-right: 0px;
+    }
+
+    /*--------------------leading-------------*/
+
+    .position-image img {
+        width: 50%;
+    }
+
+    .position-icon {
+        left: 16%;
+        top: 33%;
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .minim {
+        padding-right: 1rem;
+    }
+
+    .the-tech {
+        display: inline-block;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .studio-plus {
+        width: 32%;
+        display: inline-block;
+    }
+
+    .studio-plus a {
+        font-size: 14px;
+    }
+
+    /*-----------services---------------*/
+
+    /*-----------feature listing------------*/
+
+    .li-after {
+        /*        padding-right: 0px;*/
+    }
+    .w-image {
+        width: 30%;
+    }
+    .likes {
+        justify-content: center;
+        padding: 0px;
+    }
+    .owner {
+        width: 16%;
+        margin-left: 1.4rem;
+        margin-right: 1rem;
+    }
+
+    /*----------appartment sketch-------------------*/
+
+    .background-studio {
+        padding: 2rem 1rem;
+    }
+
+    /*---------------aminities------------------*/
+
+    .absolute-position {
+        left: 34%;
+    }
+
+    /*-----------feedback------------------*/
+
+    .feedback {
+        height: auto;
+    }
+
+    /*----------------------home-1.html--------------------------------------------*/
+
+    /*------------------find house---------------------*/
+
+    /*------------making space---------------------*/
+    .check-fas {
+        margin-right: 0px;
+    }
+
+    .play-video {
+        position: static;
+    }
+
+    /*-----------standards---------------------*/
+    .dream-living {
+    }
+
+    .std-content-gap {
+        padding: 2rem 1rem 1rem;
+    }
+
+    .label-span {
+        font-size: 13px;
+        font-weight: bold;
+        color: #626262;
+    }
+
+    /*------------------appartment--------------------------*/
+    .background-portion {
+        padding: 1rem 1rem;
+    }
+
+    /*-----------------Avialability----------------------*/
+
+    /* Force table to not be like tables anymore */
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        margin: 0 0 1rem 0;
+    }
+
+    tr:nth-child(odd) {
+        background: #ccc;
+    }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        font-weight: bold;
+        text-align: start;
+    }
+
+    /*
+		Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+		*/
+    td:nth-of-type(1):before {
+        content: "Residence";
+    }
+    td:nth-of-type(2):before {
+        content: "Bedrooms";
+    }
+    td:nth-of-type(3):before {
+        content: "Bathroom";
+    }
+    td:nth-of-type(4):before {
+        content: "SQ. FT.";
+    }
+    td:nth-of-type(5):before {
+        content: "Rent Price";
+    }
+    td:nth-of-type(6):before {
+        content: "Details";
+    }
+
+    th,
+    td {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: end;
+    }
+
+    /*----------neighbour------------------*/
+
+    .neighbour-explore {
+        padding-right: 1rem;
+    }
+
+    /*--------------------our facility----------------*/
+
+    .facility-space {
+        padding: 2rem 1rem;
+    }
+
+    /*-----------------testimonial-----------------------*/
+
+    .testimonial-user-person {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 567px) {
+    .likes {
+        flex-direction: column;
+    }
+
+    /*-----------------News & blogs-------------------------*/
+    .news-blogs .blogs.image-17-hover h3 > a.nice-view {
+        font-size: 20px;
+    }
+    /* home-style-1.blade.php */
+    /*------------------find house---------------------*/
+    .home__banner-img {
+        height: auto;
+    }
+    /*--------------search area----------------*/
+    .search-dream-house {
+        width: auto;
+        font-size: 24px;
+    }
+}
